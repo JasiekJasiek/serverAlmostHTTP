@@ -18,6 +18,7 @@ This code works similarly to HTTP servers, but has a changed protocol for only s
 
 * on server computer run `g++ -std=c++17 -Wall -o server/server server/server.cpp && ./server/server`
 * on client computer run `g++ -std=c++17 -Wall -o client/client client/client.cpp && ./client/client`
+* in `clinet/client.cpp` you have to put our server IP addres in line 19 in HTTPClinet instance
   
 </details>
 
