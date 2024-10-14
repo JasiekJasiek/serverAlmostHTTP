@@ -16,7 +16,7 @@ int main(){
 
     while(true){
         system("clear");
-        HTTPClient client("192.168.1.113", 8080);
+        HTTPClient client("Your server IP", 8080);
         std::cerr << "1. GET \n2. PUT \n3. DELETE \n";
         std::string option; std::cin >> option;
         if(option == "1"){
